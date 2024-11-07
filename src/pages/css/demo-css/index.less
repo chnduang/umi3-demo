@@ -1,0 +1,24 @@
+@prefix: test-css;
+
+.@{prefix} {
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  animation: testImageTrans 0.6s ease-in-out 1;
+
+  &-img {
+    width: 100%;
+  }
+}
+
+@keyframes testImageTrans {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

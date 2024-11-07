@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "dev": "cross-env UMI_ENV=uat NODE_OPTIONS=--openssl-legacy-provider WATCH_IGNORED=none umi dev",
     "start:uat": "cross-env UMI_ENV=uat WATCH_IGNORED=none umi dev",
     "start:prod": "cross-env UMI_ENV=prod WATCH_IGNORED=none umi dev",
     "build": "umi build",
@@ -40,8 +41,8 @@
     "immer": "^9.0.7",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.0",
-    "react": "17.x",
-    "react-dom": "17.x",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-use": "^17.3.2",
     "typescript": "^4.1.2",
     "use-immer": "^0.6.0",

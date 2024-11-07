@@ -4,6 +4,11 @@
  * @Description: 数组扁平化
  */
 
+/**
+ * @description:
+ * @param {any} arr
+ * @return {*}
+ */
 export const arrayFlatten = (arr: any[]): any[] => {
   if (!Array.isArray(arr)) {
     return [];
@@ -11,6 +16,11 @@ export const arrayFlatten = (arr: any[]): any[] => {
   return arr.flat(Infinity);
 };
 
+/**
+ * @description:
+ * @param {any} arr
+ * @return {*}
+ */
 export const arrayFlatten1 = (arr: any[]): any[] => {
   if (!Array.isArray(arr)) {
     return [];

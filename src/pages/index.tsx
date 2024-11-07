@@ -6,7 +6,7 @@ const EditorComp = (props: any) => {
       style={{ display: 'flex', padding: '24px', width: '100%' }}
       id="editor"
     >
-      index
+      React 16.x
     </div>
   );
 };
