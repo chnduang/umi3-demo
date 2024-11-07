@@ -1,8 +1,10 @@
 # umi project
 
-## Getting Started
+## 版本
+"umi": "^3.3.7"
+"react": "^16.8.6"
 
-Install dependencies,
+### Started
 
 ```bash
 $ yarn
@@ -11,5 +13,5 @@ $ yarn
 Start the dev server,
 
 ```bash
-$ yarn start
+$ yarn dev
 ```
